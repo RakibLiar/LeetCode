@@ -24,7 +24,6 @@ public:
                 break;
             }
         }
-        cout<<start<<" "<<end<<endl;
         ts = start;
         te = end;
         for(int i=start; i<=end; i++) {
@@ -43,7 +42,6 @@ public:
                 break;
             }
         }
-        cout<<start<<" "<<end;
         return te-ts+1;
     }
 };
