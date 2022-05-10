@@ -2,7 +2,6 @@ class Solution {
 public:
     vector<vector<int>> result;
     void calculateResult(vector<int> v, int k, int n, int pos) {
-        if(n<0) return;
         if(v.size() == k) {
             if(n==0) result.push_back(v);
             return;
