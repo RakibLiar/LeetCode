@@ -26,7 +26,6 @@ public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         traverse(root, p, q);
         TreeNode *result;
-        cout<<st1.size()<<" "<<st2.size();
         for(int i=0; i<min(st1.size(), st2.size()); i++) {
             if(st1[i] != st2[i])
                 break;
