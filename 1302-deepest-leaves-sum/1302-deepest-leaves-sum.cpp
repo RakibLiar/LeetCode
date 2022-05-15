@@ -15,17 +15,13 @@ public:
         if(!root) return 0;
         return max(getDepth(root->left), getDepth(root->right)) + 1;
     }
-    void deepestSum(TreeNode *root, int depth, int &sum, int d) {
-        if(!root) return;
-        deepestSum(root->left, depth, sum, d+1);
-        if(depth == d)
-            sum += root->val;
-        deepestSum(root->right, depth, sum, d+1);
+    int deepestSum(TreeNode *root, int depth, int d) {
+        if(!root) return 0;
+        if(depth == d) return root->val;
+        return deepestSum(root->right, depth, d+1) + deepestSum(root->left, depth, d+1);
     }
     int deepestLeavesSum(TreeNode* root) {
         int depth = getDepth(root);
-        int sum = 0;
-        deepestSum(root, depth, sum, 1);
-        return sum;
+        return deepestSum(root, depth, 1);
     }
 };
