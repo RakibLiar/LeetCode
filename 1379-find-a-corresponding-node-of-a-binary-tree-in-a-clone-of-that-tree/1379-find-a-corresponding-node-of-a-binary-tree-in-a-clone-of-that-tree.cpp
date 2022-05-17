@@ -10,18 +10,12 @@
 
 class Solution {
 public:
-    TreeNode* ans = NULL;
-    void setResult(TreeNode* cloned, TreeNode* target) {
-        if(!cloned) return;
-        if(cloned->val == target->val) {
-            ans = cloned;
-            return;
-        }
-        setResult(cloned->left, target);
-        setResult(cloned->right, target);
-    }
     TreeNode* getTargetCopy(TreeNode* original, TreeNode* cloned, TreeNode* target) {
-        setResult(cloned, target);
-        return ans;
+        if(!original) return NULL;
+        if(cloned->val == target->val) return cloned;
+        TreeNode* left = getTargetCopy(original->left, cloned->left, target);
+        TreeNode* right = getTargetCopy(original->right, cloned->right, target);
+        if(left) return left;
+        return right;
     }
 };
