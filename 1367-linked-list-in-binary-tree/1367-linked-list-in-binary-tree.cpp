@@ -30,7 +30,9 @@ public:
     
     bool isSubPath(ListNode* head, TreeNode* root) {
         if(!root) return false;
-        bool answer = result(head, root);
+        bool answer = false;
+        if(root->val == head->val)
+            answer = result(head, root);
         if(answer) return true;
         bool res = isSubPath(head, root->left);
         res |= isSubPath(head, root->right);
