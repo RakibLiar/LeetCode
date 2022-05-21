@@ -1,21 +1,24 @@
 class Solution {
 public:
-    int dp[15][10005], MAX = 1000000000;
+    int calculate(vector<vector<int>> &dp, vector<int> &coins, int amount, int pos, int cnt) {
+        if(amount<0) return INT_MAX-100;
+        if(amount == 0) {
+            return 0;
+        }
+        if(pos >= coins.size()) {
+            return INT_MAX-100;
+        }
+        if(dp[amount][pos] != -1) return dp[amount][pos];
+        int ans1 = INT_MAX, ans2 = INT_MAX;
+        if(amount>=coins[pos])
+            ans1 = calculate(dp, coins, amount-coins[pos], pos, cnt+1) + 1;
+        ans2 = calculate(dp, coins, amount, pos+1, cnt);
+        return dp[amount][pos] = min(ans1, ans2);
+    }
     int coinChange(vector<int>& coins, int amount) {
-        for(int i=0; i<15; i++) {
-            for(int j=0; j<10005; j++)
-                dp[i][j] = MAX;
-            dp[i][0] = 0;
-        }
+        vector<vector<int>> dp(amount+1, vector<int> (coins.size(), -1));
         sort(coins.begin(), coins.end());
-        for(int i=0; i<coins.size(); i++) {
-            for(int j=1; j<=amount; j++) {
-                if(j < coins[i])
-                    dp[i+1][j] = dp[i][j];
-                else
-                    dp[i+1][j] = min(dp[i][j], dp[i+1][j-coins[i]]+1);
-            }
-        }
-        return dp[coins.size()][amount] >= MAX ? -1 : dp[coins.size()][amount];
+        int ans = calculate(dp, coins, amount, 0, 0);
+        return ans >= INT_MAX - 100 ? -1 : ans;
     }
 };
