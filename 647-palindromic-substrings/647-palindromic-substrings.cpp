@@ -1,16 +1,18 @@
 class Solution {
 public:
-    bool dp[1005][1005];
+    bool calculate(vector<vector<bool>> &dp, string s, int pos1, int pos2) {
+        if(pos1>=pos2) return true;
+        if(dp[pos1][pos2]) return true;
+        if(s[pos1] != s[pos2])
+            return dp[pos1][pos2] = false;
+        return dp[pos1][pos2] = calculate(dp, s, pos1+1, pos2-1);
+    }
     int countSubstrings(string s) {
-        memset(dp, false, sizeof(dp));
-        for(int i=0; i<s.size(); i++)
-            dp[i][i] = true;
+        vector<vector<bool>> dp(s.size(), vector<bool>(s.size(), false));
         int cnt = 0;
-        for(int i=s.size()-1; i>=0; i--) {
-            cnt++;
-            for(int j=i+1; j<s.size(); j++) {
-                if(s[i] == s[j] && (dp[i+1][j-1] || i+1 == j)) {
-                    dp[i][j] = true;
+        for(int i=0; i<s.size(); i++) {
+            for(int j=i; j<s.size(); j++) {
+                if(dp[i][j] || calculate(dp, s, i, j)) {
                     cnt++;
                 }
             }
