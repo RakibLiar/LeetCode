@@ -29,11 +29,8 @@ public:
     vector<vector<string>> solveNQueens(int n) {
         vector<string> vec;
         vector<pair<int, int>> pos;
-        string dot;
-        for(int i=0; i<n; i++)
-            dot.push_back('.');
-        for(int i=0; i<n; i++)
-            vec.push_back(dot);
+        string dot(n, '.');
+        for(int i=0; i<n; i++) vec.push_back(dot);
         setQueens(0, pos, n, vec);
         return result;
     }
