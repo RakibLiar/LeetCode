@@ -12,15 +12,7 @@ public:
     }
     void setQueens(int row, vector<pair<int, int>> &pos, int n, vector<string> &vec) {
         if(row == n) {
-            int cnt = 0;
-            for(int i=0; i<n; i++) {
-                for(int j=0; j<n; j++) {
-                    if(vec[i][j] == 'Q')
-                        cnt++;
-                }
-            }
-            if(cnt == n)
-                result.push_back(vec);
+            result.push_back(vec);
             return;
         }
         for(int i=0; i<n; i++) {
