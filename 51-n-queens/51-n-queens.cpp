@@ -1,14 +1,14 @@
 class Solution {
 public:
     vector<vector<string>> result;
-    bool hasQueen(vector<pair<int, int>> &pos, int row, int col) {
+    bool isValid(vector<pair<int, int>> &pos, int row, int col) {
         for(auto p: pos) {
             if(p.first == row || p.second == col)
-                return true;
+                return false;
             if(abs(p.first-row) == abs(p.second-col))
-                return true;
+                return false;
         }
-        return false;
+        return true;
     }
     void setQueens(int row, vector<pair<int, int>> &pos, int n, vector<string> &vec) {
         if(row == n) {
@@ -16,7 +16,7 @@ public:
             return;
         }
         for(int i=0; i<n; i++) {
-            if(!hasQueen(pos, row, i)) {
+            if(isValid(pos, row, i)) {
                 vec[row][i] = 'Q';
                 pos.push_back({row, i});
                 setQueens(row+1, pos, n, vec);
