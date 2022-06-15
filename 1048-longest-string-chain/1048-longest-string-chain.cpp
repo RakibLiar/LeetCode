@@ -4,15 +4,13 @@ public:
     unordered_map<string, int> word_map;
     vector<int> dp;
     int calculate(int pos, string word) {
-        if(graph[word.size()+1].size() == 0) return word_map.count(word);
+        if(graph[word.size()-1].size() == 0) return word_map.count(word);
         if(dp[pos] != -1) return dp[pos];
         int cnt = 1;
-        for(int j=0; j<=word.size(); j++) {
-            for(char c = 'a'; c<='z'; c++) {
-                string s = word.substr(0, j) + c + word.substr(j);
-                if(word_map.count(s)) {
-                    cnt = max(cnt, calculate(word_map[s], s) + 1);
-                }
+        for(int j=0; j<word.size(); j++) {
+            string s = word.substr(0, j) + word.substr(j+1);
+            if(word_map.count(s)) {
+                cnt = max(cnt, calculate(word_map[s], s) + 1);
             }
         }
         return dp[pos] = cnt;
@@ -38,16 +36,3 @@ public:
         return ans;
     }
 };
-
-/*
-for(int i=0; i<len; i++) {
-    for(int j=0; j<=words[i].size(); j++) {
-        for(char c = 'a'; c<='z'; c++) {
-            string s = words[i].substr(0, j) + c + words[i].substr(j);
-            if(word_mp.count(s)) {
-                graph[i].push_back(word_mp[s]);
-            }
-        }
-    }
-}
-*/
