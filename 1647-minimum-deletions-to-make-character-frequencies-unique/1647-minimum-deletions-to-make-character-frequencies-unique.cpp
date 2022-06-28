@@ -5,19 +5,13 @@ public:
         for(char c: s) {
             v[c-'a']++;
         }
-        bool flag = true;
+        sort(v.begin(), v.end());
         int cnt = 0;
-        temp = v;
-        while(flag) {
-            flag = false;
-            sort(temp.begin(), temp.end());
-            v = temp;
-            for(int i=1; i<26; i++) {
-                if(v[i-1] > 0 && v[i-1] == v[i]) {
-                    temp[i-1]--;
-                    flag = true;
-                    cnt++;
-                }
+        for(int i=24; i>=0; i--) {
+            if(v[i]>=v[i+1]) {
+                int prev = v[i];
+                v[i] = max(0, v[i+1]-1);
+                cnt += (prev-v[i]);
             }
         }
         return cnt;
