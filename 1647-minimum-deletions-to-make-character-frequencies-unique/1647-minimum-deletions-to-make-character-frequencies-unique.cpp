@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minDeletions(string s) {
-        vector<int> v(26, 0), temp(26, 0);
+        vector<int> v(26, 0);
         for(char c: s) {
             v[c-'a']++;
         }
