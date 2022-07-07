@@ -1,7 +1,7 @@
 class Solution {
 public:
-    int calculate(int pos1, int pos2, int pos3, string s1, string s2, string s3, vector<vector<vector<int>>> &dp) {
-        //cout<<pos1<<" "<<pos2<<" "<<pos3<<endl;
+    int calculate(int pos1, int pos2, string s1, string s2, string s3, vector<vector<int>> &dp) {
+        int pos3 = pos1 + pos2;
         if(pos1 + pos2 == s3.size())
             return 1;
         if(pos3 >= s3.size())
@@ -20,20 +20,20 @@ public:
             }
             return 1;
         }
-        if(dp[pos1][pos2][pos3] != -1) return dp[pos1][pos2][pos3];
+        if(dp[pos1][pos2] != -1) return dp[pos1][pos2];
         if(s1[pos1] != s3[pos3] && s2[pos2] != s3[pos3])
-            return dp[pos1][pos2][pos3] = 0;
+            return dp[pos1][pos2] = 0;
         if(s1[pos1] == s3[pos3])
-            dp[pos1][pos2][pos3] = calculate(pos1+1, pos2, pos3+1, s1, s2, s3, dp);
+            dp[pos1][pos2] = calculate(pos1+1, pos2, s1, s2, s3, dp);
         if(s2[pos2] == s3[pos3])
-            dp[pos1][pos2][pos3] = max(dp[pos1][pos2][pos3], calculate(pos1, pos2+1, pos3+1, s1, s2, s3, dp));
-        return dp[pos1][pos2][pos3];
+            dp[pos1][pos2] = max(dp[pos1][pos2], calculate(pos1, pos2+1, s1, s2, s3, dp));
+        return dp[pos1][pos2];
     }
     
     bool isInterleave(string s1, string s2, string s3) {
         if(s1.size() + s2.size() != s3.size())
             return false;
-        vector<vector<vector<int>>> dp(s1.size(), vector<vector<int>>(s2.size(), vector<int>(s3.size(), -1)));
-        return calculate(0, 0, 0, s1, s2, s3, dp) == 1 ? true : false;
+        vector<vector<int>> dp(vector<vector<int>>(s1.size(), vector<int>(s2.size(), -1)));
+        return calculate(0, 0, s1, s2, s3, dp) == 1 ? true : false;
     }
 };
