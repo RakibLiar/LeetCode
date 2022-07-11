@@ -18,14 +18,14 @@ public:
         q.push(root);
         while(!q.empty()) {
             int len = q.size();
-            for(int i=0; i<len; i++) {
+            for(int i=1; i<=len; i++) {
                 auto t = q.front();
                 q.pop();
                 if(t->left)
                     q.push(t->left);
                 if(t->right)
                     q.push(t->right);
-                if(i == len-1)
+                if(i == len)
                     v.push_back(t->val);
             }
         }
