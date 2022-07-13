@@ -1,13 +1,11 @@
 class Solution {
 public:
     int specialArray(vector<int>& nums) {
-        for(int i=0; i<=nums.size(); i++) {
-            int cnt = 0;
-            for(int j=0; j<nums.size(); j++) {
-                if(nums[j] >= i)
-                    cnt++;
-            }
-            if(cnt == i)
+        sort(nums.begin(), nums.end());
+        int n = nums.size();
+        for(int i=0; i<=n; i++) {
+            int low = lower_bound(nums.begin(), nums.end(), i) - nums.begin();
+            if(i == n-low)
                 return i;
         }
         return -1;
