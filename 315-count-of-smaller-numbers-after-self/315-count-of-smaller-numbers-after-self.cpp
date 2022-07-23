@@ -30,7 +30,7 @@ public:
         tree[node] = tree[Left] + tree[Right];
     }
     vector<int> countSmaller(vector<int>& nums) {
-        tree = vector<int>(100100, 0);
+        tree = vector<int>(70100, 0);
         vector<int> res(nums.size());
         for(int i=nums.size()-1; i>=0; i--) {
             int a = nums[i] + 10001;
