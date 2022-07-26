@@ -9,28 +9,29 @@
  */
 class Solution {
 public:
-    vector<TreeNode*> st1, st2, s;
-    void traverse(TreeNode* root, TreeNode *target1, TreeNode *target2) {
-        if(!root) return;
-        s.push_back(root);
-        if(root == target1) {
-            st1 = s;
+    bool isFound = false;
+    void rootToNode(TreeNode *root, TreeNode *t, vector<TreeNode*> &v) {
+        if(root == NULL || isFound) return;
+        v.push_back(root);
+        if(root == t) {
+            isFound = true;
+            return;
         }
-        if(root == target2) {
-            st2 = s;
-        }
-        traverse(root->left, target1, target2);
-        traverse(root->right, target1, target2);
-        s.pop_back();
+        if(!isFound) rootToNode(root->left, t, v);
+        if(!isFound) rootToNode(root->right, t, v);
+        if(!isFound) v.pop_back();
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        traverse(root, p, q);
-        TreeNode *result;
-        for(int i=0; i<min(st1.size(), st2.size()); i++) {
-            if(st1[i] != st2[i])
-                break;
-            result = st1[i];
+        vector<TreeNode*> v1, v2;
+        rootToNode(root, p, v1);
+        isFound = false;
+        rootToNode(root, q, v2);
+        TreeNode *res;
+        int a = min(v1.size(), v2.size());
+        for(int i=0; i<a; i++) {
+            if(v1[i] != v2[i]) break;
+            res = v1[i];
         }
-        return result;
+        return res;
     }
 };
