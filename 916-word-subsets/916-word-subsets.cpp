@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<string> wordSubsets(vector<string>& words1, vector<string>& words2) {
         vector<int> wv2(26, 0);
-        for(string s: words2) {
+        for(string &s: words2) {
             vector<int> v(26, 0);
             for(char c: s) {
                 v[c-'a']++;
@@ -12,7 +12,7 @@ public:
             }
         }
         vector<string> res;
-        for(string s: words1) {
+        for(string &s: words1) {
             vector<int> v(26, 0);
             for(char c: s) {
                 v[c-'a']++;
