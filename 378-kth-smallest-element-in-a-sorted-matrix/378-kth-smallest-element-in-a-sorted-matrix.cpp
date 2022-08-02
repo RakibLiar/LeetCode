@@ -8,7 +8,7 @@ public:
         priority_queue<vector<int>, vector<vector<int>>, greater<vector<int>>> pq;
         pq.push({matrix[0][0], 0, 0});
         vector<vector<bool>> test(n, vector<bool>(n, false));
-        while(cnt < k) {
+        while(true) {
             vector<int> v = pq.top();
             pq.pop();
             cnt++;
