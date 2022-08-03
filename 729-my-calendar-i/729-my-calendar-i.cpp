@@ -6,7 +6,6 @@ public:
     }
     
     bool book(int start, int end) {
-        sort(vp.begin(), vp.end());
         for(auto p: vp) {
             if(end <= p.first || start >= p.second) continue;
             return false;
