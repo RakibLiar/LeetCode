@@ -6,9 +6,7 @@ public:
     }
     int mirrorReflection(int p, int q) {
         int g = gcd(p,q);
-        int n = p/g;
-        if(n%2 == 0) return 2;
-        n = q/g;
-        return n%2;
+        if((p/g)%2 == 0) return 2;
+        return (q/g)%2;
     }
 };
