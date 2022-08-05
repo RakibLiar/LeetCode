@@ -1,17 +1,16 @@
 class Solution {
 public:
-    vector<vector<int>> dp;
+    vector<unsigned int> dp;
     Solution() {
-        dp = vector<vector<int>>(1001, vector<int>(1001, -1));
+        dp = vector<unsigned int>(1001, 0);
     }
     int combinationSum4(vector<int>& nums, int sum, int pos = 0) {
-        if(sum < 0) return 0;
-        if(sum == 0) return 1;
-        if(dp[pos][sum] != -1) return dp[pos][sum];
-        int a = 0;
-        for(int i=0; i<nums.size(); i++) {
-            a += combinationSum4(nums, sum-nums[i], i);
+        dp[0] = 1;
+        for(int i=0; i<=sum; i++) {
+            for(int x: nums) {
+                if(i>=x) dp[i] += dp[i-x];
+            }
         }
-        return dp[pos][sum] = a;
+        return dp[sum];
     }
 };
