@@ -15,7 +15,7 @@ public:
     }
     
     vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
-        unordered_map<string, bool> wordMap, visited;
+        unordered_map<string, bool> wordMap;
         unordered_map<string, vector<string>> parents;
         unordered_map<string, int> levels;
         for(auto word: wordList) {
@@ -23,14 +23,11 @@ public:
         }
         queue<string> q;
         q.push(beginWord);
-        visited[beginWord] = true;
         int level = 0;
         levels[beginWord] = 0;
         while(!q.empty()) {
             string s = q.front();
             q.pop();
-            visited[s] = true;
-            //if(s == endWord) break;
             for(int i=0; i<s.size(); i++) {
                 string temp = s;
                 for(char c='a'; c<='z'; c++) {
