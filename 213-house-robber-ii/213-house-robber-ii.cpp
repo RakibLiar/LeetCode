@@ -4,12 +4,6 @@ public:
     int calculate(int isFirst, int prev, int pos, vector<int> &nums) {
         if(isFirst <= pos)
             return 0;
-        /*if(pos == nums.size()-1) {
-            if(isFirst) return 0;
-            if(prev)
-                return dp[prev][pos] = calculate(isFirst, false, pos+1, nums);
-            return dp[prev][pos] = max(calculate(isFirst, true, pos+1, nums) + nums[pos], calculate(isFirst, false, pos+1, nums));
-        }*/
         if(dp[prev][pos] != -1) return dp[prev][pos];
         if(prev)
             dp[prev][pos] = calculate(isFirst, false, pos+1, nums);
