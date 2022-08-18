@@ -7,7 +7,8 @@ public:
             v[a]++;
         }
         for(int a: v) {
-            pq.push(a);
+            if(a != 0)
+                pq.push(a);
         }
         int n = arr.size(), ans = 0, cnt = 0;
         while(ans < n/2) {
