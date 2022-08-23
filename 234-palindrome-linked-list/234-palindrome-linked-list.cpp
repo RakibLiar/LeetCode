@@ -10,18 +10,14 @@
  */
 class Solution {
 public:
-    bool equal = true;
-    //ListNode *hurr;
-    void isValid(ListNode *tail, ListNode *&hurr) {
-        if(tail == NULL || hurr == NULL) return;
-        isValid(tail->next, hurr);
-        equal = equal && (tail->val == hurr->val);
+    bool isValid(ListNode *tail, ListNode *&hurr) {
+        if(tail == NULL || hurr == NULL) return true;
+        bool equal = isValid(tail->next, hurr) && (tail->val == hurr->val);
         hurr = hurr->next;
+        return equal;
     }
     
     bool isPalindrome(ListNode* head) {
-        //hurr = head;
-        isValid(head, head);
-        return equal;
+        return isValid(head, head);
     }
 };
