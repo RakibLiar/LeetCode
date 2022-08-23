@@ -10,10 +10,10 @@
  */
 class Solution {
 public:
-    bool isValid(ListNode *tail, ListNode *&hurr) {
-        if(tail == NULL || hurr == NULL) return true;
-        bool equal = isValid(tail->next, hurr) && (tail->val == hurr->val);
-        hurr = hurr->next;
+    bool isValid(ListNode *tail, ListNode *&head) {
+        if(tail == NULL || head == NULL) return true;
+        bool equal = isValid(tail->next, head) && (tail->val == head->val);
+        head = head->next;
         return equal;
     }
     
