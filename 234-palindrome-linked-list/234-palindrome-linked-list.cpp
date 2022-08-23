@@ -11,17 +11,17 @@
 class Solution {
 public:
     bool equal = true;
-    ListNode *hurr;
-    void isValid(ListNode *&tail) {
+    //ListNode *hurr;
+    void isValid(ListNode *tail, ListNode *&hurr) {
         if(tail == NULL || hurr == NULL) return;
-        isValid(tail->next);
+        isValid(tail->next, hurr);
         equal = equal && (tail->val == hurr->val);
         hurr = hurr->next;
     }
     
     bool isPalindrome(ListNode* head) {
-        hurr = head;
-        isValid(head);
+        //hurr = head;
+        isValid(head, head);
         return equal;
     }
 };
