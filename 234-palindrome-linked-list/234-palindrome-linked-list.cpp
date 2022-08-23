@@ -13,6 +13,7 @@ public:
     bool isValid(ListNode *tail, ListNode *&head) {
         if(tail == NULL || head == NULL) return true;
         bool equal = isValid(tail->next, head) && (tail->val == head->val);
+        if(equal == false) return false;
         head = head->next;
         return equal;
     }
