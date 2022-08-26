@@ -1,10 +1,10 @@
 class Solution {
 public:
     vector<string> findRepeatedDnaSequences(string s) {
-        unordered_map<long long, int> hasBefore;
+        unordered_map<int, int> hasBefore;
         vector<string> v;
         for(int i=0; i<=(int)s.size()-10; i++) {
-            long long ans = 0;
+            int ans = 0;
             for(int j=i; j<i+10; j++) {
                 ans = (5 * ans + (s[j]-'A'+1)%5);
             }
