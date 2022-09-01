@@ -11,16 +11,8 @@
  */
 class Solution {
 public:
-    void getResult(TreeNode *root, int mx, int &cnt) {
-        if(root == NULL) return;
-        cnt += (root->val >= mx);
-        getResult(root->left, max(root->val, mx), cnt);
-        getResult(root->right, max(root->val, mx), cnt);
-    }
-    
-    int goodNodes(TreeNode* root) {
-        int cnt = 0;
-        getResult(root,INT_MIN,cnt);
-        return cnt;
+    int goodNodes(TreeNode* root, int mx = INT_MIN) {
+        if(root == NULL) return 0;
+        return (root->val >= mx) + goodNodes(root->left, max(mx, root->val)) + goodNodes(root->right, max(mx, root->val));
     }
 };
