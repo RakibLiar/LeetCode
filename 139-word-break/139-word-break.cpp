@@ -107,7 +107,7 @@ public:
             sol.insert(wordDict[i]);
         }        
         bool ans = (sol.search(s, 0) == 1);
-        sol.del(sol.getRoot());
+        //sol.del(sol.getRoot());
         return ans;
     }
 };
