@@ -55,6 +55,7 @@ public:
     // DP Memoization Approach
     int search(string word, int startIdx)
     {
+        if(startIdx >= word.size()) return 1;
         Node* temp = root;
         bool isFound = 0;
         if (dp[startIdx] != -1)
@@ -83,7 +84,7 @@ public:
  
     void resetMemoization(string s)
     {
-        for (int i = 0; i < 300; i++)
+        for (int i = 0; i < s.size(); i++)
             dp[i] = -1;
     }
     void del(Node* cur)
