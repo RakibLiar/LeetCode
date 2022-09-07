@@ -27,8 +27,13 @@ public:
     }
     string tree2str(TreeNode* root) {
         if(root == NULL) return "";
-        string ans = to_string(root->val);
-        result(root, ans);
-        return ans;
+        string res = to_string(root->val);
+        if(root->right != NULL) {
+            res += ("(" + tree2str(root->left) + ")");
+            res += ("(" + tree2str(root->right) + ")");
+        } else if(root->left != NULL) {
+            res += ("(" + tree2str(root->left) + ")");
+        }
+        return res;
     }
 };
