@@ -7,7 +7,6 @@ public:
             n /= 2;
         }
         reverse(s.begin(), s.end());
-        //cout<<n<<" "<<s<<endl;
         return s;
     }
     
@@ -31,7 +30,6 @@ public:
         for(i=0; i<data.size(); i++) {
             int bit = utfBit(data[i]);
             if(bit == 1 || bit == -1 || bit > 4) return false;
-            //cout<<i<<" "<<bit<<endl;
             for(int j=1; j+i<data.size() && j < bit; j++) {
                 if(!isValid(data[i+j])) {
                     return false;
@@ -40,7 +38,6 @@ public:
             if(bit != 0)
                 i += (bit-1);
         }
-        //cout<<i<<endl;
         return i == data.size();
     }
 };
