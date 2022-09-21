@@ -24,8 +24,7 @@ public:
         }
         for(vector<int> q: queries) {
             int ind = q[1], val = q[0];
-            int a = addValue(nums[ind], nums[ind] + val);
-            sum += a;
+            sum += addValue(nums[ind], nums[ind] + val);
             ans.push_back(sum);
             nums[ind] += val;
         }
