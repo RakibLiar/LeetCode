@@ -1,7 +1,6 @@
 class Solution {
 public:
     int calculate(string s, string cur, int pos, vector<int> &dp) {
-        //cout<<pos+2<<" "<<s.size()<<" "<< (pos+2<=s.size()) <<endl;
         if(cur.size() && (cur[0] == '0' || stoi(cur) > 26)) return 0;
         if(pos >= s.size()) return 1;
         if(dp[pos] != -1) return dp[pos];
@@ -14,7 +13,6 @@ public:
         return dp[pos];
     }
     int numDecodings(string s) {
-        //if(s.size() == 1) return s != "0";
         vector<int> dp(s.size(), -1);
         return calculate(s, "", 0, dp);
     }
