@@ -17,9 +17,6 @@ public:
         if(root->left == NULL && root->right == NULL && targetSum == root->val)
             return true;
         
-        bool left = hasPathSum(root->left, targetSum - root->val);
-        bool right = hasPathSum(root->right, targetSum - root->val);
-        
-        return left or right;
+        return hasPathSum(root->left, targetSum - root->val) or hasPathSum(root->right, targetSum - root->val);
     }
 };
