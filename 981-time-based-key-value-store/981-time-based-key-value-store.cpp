@@ -15,9 +15,9 @@ public:
         if(mp1[key].size() == 0 || mp1[key][0] > timestamp) return "";
         int sz = mp1[key].size();
         if(mp1[key][sz-1] <= timestamp) return mp2[key][sz-1];
-        vector<int> &v = mp1[key];
-        int index = lower_bound(v.begin(), v.end(), timestamp) - v.begin();
-        if(v[index] > timestamp) index--;
+        //vector<int> &v = mp1[key];
+        int index = lower_bound(mp1[key].begin(), mp1[key].end(), timestamp) - mp1[key].begin();
+        if(mp1[key][index] > timestamp) index--;
         return mp2[key][index];
     }
 };
