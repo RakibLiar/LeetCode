@@ -5,12 +5,6 @@ public:
         
     }
     
-    static bool comp(int a, int b) {
-        if(abs(a) == abs(b))
-            return a<b;
-        return abs(a) < abs(b);
-    }
-    
     int book(int start, int end) {
         mp[start]++;
         mp[end]--;
