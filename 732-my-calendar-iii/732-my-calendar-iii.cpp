@@ -1,6 +1,6 @@
 class MyCalendarThree {
 public:
-    vector<int> v;
+    map<int, int> mp;
     MyCalendarThree() {
         
     }
@@ -12,17 +12,16 @@ public:
     }
     
     int book(int start, int end) {
-        v.push_back(start);
-        v.push_back(-end);
-        sort(v.begin(), v.end(), comp);
-        int ans = 0, mx = 0;
-        for(int a: v) {
-            if(a >= 0)
-                ans++;
-            else
-                ans--;
-            mx = max(ans, mx);
+        mp[start]++;
+        mp[end]--;
+        
+        int mx = 0, ans = 0;
+        
+        for(auto it: mp) {
+            ans += it.second;
+            mx = max(mx, ans);
         }
+        
         return mx;
     }
 };
