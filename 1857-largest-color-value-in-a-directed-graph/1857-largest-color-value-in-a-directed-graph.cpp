@@ -18,11 +18,11 @@ public:
             q.pop();
             ++processed;
             res = max(res, ++cnt[parent][cs[parent] - 'a']);
-            for (auto j : al[parent]) {
+            for (auto child : al[parent]) {
                 for (auto k = 0; k < 26; ++k)
-                    cnt[j][k] = max(cnt[j][k], cnt[parent][k]);
-                if (--indegrees[j] == 0)
-                    q.push(j);
+                    cnt[child][k] = max(cnt[child][k], cnt[parent][k]);
+                if (--indegrees[child] == 0)
+                    q.push(child);
             }
         }
         return processed != cs.size() ? -1 : res;
