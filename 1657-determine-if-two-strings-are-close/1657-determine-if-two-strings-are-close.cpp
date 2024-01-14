@@ -1,37 +1,18 @@
 class Solution {
 public:
-  bool closeStrings(string word1, string word2) {
-    if (word1.size() != word2.size()) {
-      return false;
+    bool closeStrings(string word1, string word2) {
+        vector<int> v1(26, 0), v2(26, 0);
+        vector<bool> b(26, false);
+        for(int c: word1) {
+            v1[c-'a']++;
+            b[c-'a'] = true;
+        }
+        for(int c: word2) {
+            if(b[c-'a'] == false) return false;
+            v2[c-'a']++;
+        }
+        sort(v1.begin(), v1.end());
+        sort(v2.begin(), v2.end());
+        return v1 == v2;
     }
-
-    set<char> charSet1(word1.begin(), word1.end());
-    set<char> charSet2(word2.begin(), word2.end());
-
-    if (charSet1 != charSet2) {
-      return false;
-    }
-
-    unordered_map<char, int> freq1;
-    unordered_map<char, int> freq2;
-
-    for (char c : word1) {
-      freq1[c]++;
-    }
-    for (char c : word2) {
-      freq2[c]++;
-    }
-
-    multiset<int> freqSet1;
-    multiset<int> freqSet2;
-
-    for (auto f : freq1) {
-      freqSet1.insert(f.second);
-    }
-    for (auto f : freq2) {
-      freqSet2.insert(f.second);
-    }
-
-    return freqSet1 == freqSet2;
-  }
 };
