@@ -13,8 +13,6 @@ public:
             if(it.second == 0) zeroloss.push_back(it.first);
             if(it.second == 1) oneloss.push_back(it.first);
         }
-        //sort(oneloss.begin(), oneloss.end());
-        //sort(zeroloss.begin(), zeroloss.end());
         
         return {zeroloss, oneloss};
     }
