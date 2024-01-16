@@ -1,13 +1,14 @@
 class RandomizedSet {
 public:
-    unordered_map<int, bool> mp;
+    set<int> mp;
+    
     RandomizedSet() {
         
     }
     
     bool insert(int val) {
-        if(!mp.count(val)) {
-            mp[val] = true;
+        if(mp.find(val) == mp.end()) {
+            mp.insert(val);
             return true;
         }
         return false;
@@ -25,7 +26,7 @@ public:
     int getRandom() {
         auto it = mp.begin();
         advance(it, rand() % mp.size());
-        return it->first;
+        return *it;
     }
 };
 
