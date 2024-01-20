@@ -15,7 +15,7 @@ public:
                     st.pop();
                     long long left = ind - (st.empty() ? -1 : st.top());
                     long long right = i - ind;
-                    res = (res + (arr[ind] * left * right)%MOD)% MOD;
+                    res = (res + (arr[ind] * (left * right)%MOD)%MOD)% MOD;
                 }
                 st.push(i);
             }
