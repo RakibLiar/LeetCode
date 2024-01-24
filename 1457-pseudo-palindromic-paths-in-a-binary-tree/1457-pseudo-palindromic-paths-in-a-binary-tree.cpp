@@ -15,9 +15,9 @@ public:
         if(root == nullptr) return 0;
         n ^= (1 << root->val);
         if(root->left == nullptr && root->right == nullptr) {
-            int a = (n == 0 || ((n&(n-1)) == 0));
+            int a = __builtin_popcount(n);
             n ^= (1 << root->val);
-            return a;
+            return a <= 1;
         }
         int res = pseudoPalindromicPaths(root->left, n) + pseudoPalindromicPaths(root->right, n);
         n ^= (1 << root->val);
