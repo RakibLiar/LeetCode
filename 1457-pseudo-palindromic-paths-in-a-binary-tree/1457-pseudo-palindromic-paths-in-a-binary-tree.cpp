@@ -11,28 +11,16 @@
  */
 class Solution {
 public:
-    int count(vector<int> &v) {
-        int c = 0;
-        for(int a: v) {
-            c += (a%2);
-        }
-        return c <= 1;
-    }
-    int calculate(TreeNode *root, vector<int> &v) {
+    int pseudoPalindromicPaths(TreeNode *root, int n = 0) {
         if(root == nullptr) return 0;
-        v[root->val]++;
+        n ^= (1 << root->val);
         if(root->left == nullptr && root->right == nullptr) {
-            int a = count(v);
-            v[root->val]--;
+            int a = (n == 0 || ((n&(n-1)) == 0));
+            n ^= (1 << root->val);
             return a;
         }
-        int res = calculate(root->left, v) + calculate(root->right, v);
-        v[root->val]--;
+        int res = pseudoPalindromicPaths(root->left, n) + pseudoPalindromicPaths(root->right, n);
+        n ^= (1 << root->val);
         return res;
-    }
-    
-    int pseudoPalindromicPaths (TreeNode* root) {
-        vector<int> v(10, 0);
-        return calculate(root, v);
     }
 };
