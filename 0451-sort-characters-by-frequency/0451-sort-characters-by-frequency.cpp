@@ -1,36 +1,25 @@
-struct node
-    {
-        int count,index;
-        node()
-        {
-            count = 0;
-            index = 0;
-        }
-    };
-bool comp(node a, node b)
-    {
-        return a.count>b.count;
-    }
 class Solution {
 public:
-    
     string frequencySort(string s) {
-        int i,j,a,b,c,len = s.size();
-        struct node arr[300];
-        string res;
-        for(i=0;i<len;i++)
-        {
-            a = s[i];
-            arr[a].index = a;
-            arr[a].count++;
+        
+        vector < char > v;
+        vector < pair < int , char >> charCnt(256);
+        
+        for(char &c: s) {
+            charCnt[c].first++;
+            charCnt[c].second = c;
         }
-        sort(arr,arr+300,comp);
-        a=-1;
-        while(arr[++a].count!=0)
-        {
-            for(i=0;i<arr[a].count;i++)
-                res.push_back(arr[a].index);
+        
+        sort(charCnt.rbegin(), charCnt.rend());
+        string ans = "";
+        
+        
+        for(int i=0;i<charCnt.size() && charCnt[i].first>0;i++) {
+            for(int j=0;j<charCnt[i].first;j++) {
+                ans.push_back(charCnt[i].second);
+            }
         }
-        return res;
+        
+        return ans;
     }
 };
