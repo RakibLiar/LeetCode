@@ -14,11 +14,11 @@ public:
             return a.first > b.first;
         });
         string ans = "";
+        int a = -1;
         
-        for(pair<int, char> &p: charCnt) {
-            if(p.first == 0) break;
-            for(int i=1; i<=p.first; i++) {
-                ans.push_back(p.second);
+        while(charCnt[++a].first != 0) {
+            for(int i=0; i<charCnt[a].first; i++) {
+                ans.push_back(charCnt[a].second);
             }
         }
         
