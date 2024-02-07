@@ -10,12 +10,13 @@ public:
             charCnt[c].second = c;
         }
         
-        sort(charCnt.rbegin(), charCnt.rend());
+        sort(charCnt.begin(), charCnt.end(), [&](pair<int, char> &a, pair<int, char> &b) {
+            return a.first > b.first;
+        });
         string ans = "";
         
-        
-        for(int i=0;i<charCnt.size() && charCnt[i].first>0;i++) {
-            for(int j=0;j<charCnt[i].first;j++) {
+        for(int i=0; charCnt[i].first>0 && i<charCnt.size(); i++) {
+            for(int j=0; j<charCnt[i].first; j++) {
                 ans.push_back(charCnt[i].second);
             }
         }
