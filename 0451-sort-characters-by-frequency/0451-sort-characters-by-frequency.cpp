@@ -15,11 +15,14 @@ public:
         });
         string ans = "";
         
-        for(int i=0; charCnt[i].first>0 && i<charCnt.size(); i++) {
-            for(int j=0; j<charCnt[i].first; j++) {
-                ans.push_back(charCnt[i].second);
+        for(pair<int, char> &p: charCnt) {
+            if(p.first == 0) break;
+            for(int i=1; i<=p.first; i++) {
+                ans.push_back(p.second);
             }
         }
+        
+        
         
         return ans;
     }
