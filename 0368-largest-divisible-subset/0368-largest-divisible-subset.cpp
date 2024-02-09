@@ -1,7 +1,6 @@
 class Solution {
 public:
     void findLength(vector<vector<int>> &graph, vector<int> &level, int currentNode, vector<int> &path, vector<int> &longestPath, int d) {
-        //cout<<d<<" "<<currentNode<<" "<< level[currentNode]<<endl;
         if(d <= level[currentNode]) return;
         level[currentNode] = d;
         path.push_back(currentNode);
