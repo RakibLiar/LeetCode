@@ -3,7 +3,7 @@ public:
     string vowelString = "AEIOUaeiou";
     
     bool isVowel(char c) {
-        return c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
+        return vowelString.find(c) != string::npos;
     }
     
     char getVowel(int a) {
@@ -24,16 +24,19 @@ public:
     
     string sortVowels(string s) {
         vector<int> vowel(10, 0);
+        
         for(char c: s) {
-            if(isVowel(toupper(c))) {
+            if(isVowel(c)) {
                 vowel[vowelIndex(c)]++;
             }
         }
+        
         for(int i=0; i<s.size(); i++) {
-            if(isVowel(toupper(s[i]))) {
+            if(isVowel(s[i])) {
                 s[i] = getVowelIndex(s[i], vowel);
             }
         }
+        
         return s;
     }
 };
