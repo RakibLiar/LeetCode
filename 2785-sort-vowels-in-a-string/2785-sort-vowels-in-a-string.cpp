@@ -11,13 +11,12 @@ public:
     }
     
     char getVowelIndex(char c, vector<int> &v) {
-        for(int i=0; i<10; i++) {
-            if(v[i] != 0) {
-                v[i]--;
-                return getVowel(i);
-            }
-        }
-        return 0;
+        auto it = find_if(v.begin(), v.end(), [](int x) {
+            return x != 0;
+        });
+        int index = it - v.begin();
+        v[index]--;
+        return getVowel(index);
     }
     
     int vowelIndex(char c) {
@@ -33,7 +32,6 @@ public:
         }
         for(int i=0; i<s.size(); i++) {
             if(isVowel(toupper(s[i]))) {
-                //cout<<s[i]<<" "<<getVowelIndex(s[i], vowel)<<endl;
                 s[i] = getVowelIndex(s[i], vowel);
             }
         }
