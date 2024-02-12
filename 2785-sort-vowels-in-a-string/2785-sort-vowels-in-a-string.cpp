@@ -11,10 +11,9 @@ public:
     }
     
     char getVowelIndex(char c, vector<int> &v) {
-        auto it = find_if(v.begin(), v.end(), [](int x) {
+        int index = find_if(v.begin(), v.end(), [](int x) {
             return x != 0;
-        });
-        int index = it - v.begin();
+        }) - v.begin();
         v[index]--;
         return getVowel(index);
     }
