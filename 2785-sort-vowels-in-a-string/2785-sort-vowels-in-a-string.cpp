@@ -6,7 +6,7 @@ public:
         return vowelString.find(c) != string::npos;
     }
     
-    char getVowel(int a) {
+    char getVowelPosition(int a) {
         return vowelString[a];
     }
     
@@ -15,7 +15,7 @@ public:
             return x != 0;
         }) - v.begin();
         v[index]--;
-        return getVowel(index);
+        return getVowelPosition(index);
     }
     
     int vowelIndex(char c) {
