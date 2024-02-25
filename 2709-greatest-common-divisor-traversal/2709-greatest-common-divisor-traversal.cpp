@@ -12,10 +12,9 @@ public:
     bool canTraverseAllPairs(vector<int>& nums) {
         if(nums.size() == 1) return true;
         vector<vector<int>> graph(100001), anotherGraph(nums.size());
-        sort(nums.begin(), nums.end());
-        if(nums[0] == 1) return false;
         for(int j=0; j<nums.size(); j++) {
             int n = nums[j];
+            if(n == 1) return false;
             if(n % 2 == 0) {
                 graph[2].push_back(j);
                 while(n%2 == 0) n /= 2;
