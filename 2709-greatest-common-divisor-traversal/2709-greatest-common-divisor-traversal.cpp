@@ -50,9 +50,9 @@ public:
         set<int> st(nums.begin(), nums.end());
         nums = vector<int>(st.begin(), st.end());
         vector<vector<int>> factorizedGraph = primeFactorize(nums);
-        vector<vector<int>> anotherGraph = createGraph(factorizedGraph, nums.size());
+        vector<vector<int>> graph = createGraph(factorizedGraph, nums.size());
         vector<bool> visited(nums.size(), false);
-        dfs(anotherGraph, visited, 0);
+        dfs(graph, visited, 0);
         for(bool b: visited) {
             if(!b) return false;
         }
