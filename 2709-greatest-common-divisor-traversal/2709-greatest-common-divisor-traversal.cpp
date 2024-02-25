@@ -44,11 +44,11 @@ public:
     
     bool canTraverseAllPairs(vector<int>& nums) {
         if(nums.size() == 1) return true;
+        set<int> st(nums.begin(), nums.end());
+        nums = vector<int>(st.begin(), st.end());
         for(int n: nums) {
             if(n == 1) return false;
         }
-        set<int> st(nums.begin(), nums.end());
-        nums = vector<int>(st.begin(), st.end());
         vector<vector<int>> factorizedGraph = primeFactorize(nums);
         vector<vector<int>> graph = createGraph(factorizedGraph, nums.size());
         vector<bool> visited(nums.size(), false);
