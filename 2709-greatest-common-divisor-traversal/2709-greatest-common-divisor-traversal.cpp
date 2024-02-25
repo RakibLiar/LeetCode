@@ -1,20 +1,19 @@
 class Solution {
 public:
     void dfs(vector<vector<int>> &graph, vector<bool> &visited, int parent) {
+        if(visited[parent] == true) return;
+        visited[parent] = true;
         for(int child: graph[parent]) {
             if(visited[child] == false) {
-                visited[child] = true;
                 dfs(graph, visited, child);
             }
         }
     }
     
-    bool canTraverseAllPairs(vector<int>& nums) {
-        if(nums.size() == 1) return true;
-        vector<vector<int>> graph(100001), anotherGraph(nums.size());
+    vector<vector<int>> primeFactorize(vector<int> &nums) {
+        vector<vector<int>> graph(100001);
         for(int j=0; j<nums.size(); j++) {
             int n = nums[j];
-            if(n == 1) return false;
             if(n % 2 == 0) {
                 graph[2].push_back(j);
                 while(n%2 == 0) n /= 2;
@@ -27,16 +26,32 @@ public:
             }
             if(n > 1) graph[n].push_back(j);
         }
-        for(vector<int> g: graph) {
+        return graph;
+    }
+    
+    vector<vector<int>> createGraph(vector<vector<int>> &factorizedGraph, int size) {
+        vector<vector<int>> graph(size);
+        for(vector<int> g: factorizedGraph) {
             if(g.size() > 1) {
                 for(int i=1; i<g.size(); i++) {
-                    anotherGraph[g[i-1]].push_back(g[i]);
-                    anotherGraph[g[i]].push_back(g[i-1]);
+                    graph[g[i-1]].push_back(g[i]);
+                    graph[g[i]].push_back(g[i-1]);
                 }
             }
         }
+        return graph;
+    }
+    
+    bool canTraverseAllPairs(vector<int>& nums) {
+        if(nums.size() == 1) return true;
+        for(int n: nums) {
+            if(n == 1) return false;
+        }
+        set<int> st(nums.begin(), nums.end());
+        nums = vector<int>(st.begin(), st.end());
+        vector<vector<int>> factorizedGraph = primeFactorize(nums);
+        vector<vector<int>> anotherGraph = createGraph(factorizedGraph, nums.size());
         vector<bool> visited(nums.size(), false);
-        visited[0] = true;
         dfs(anotherGraph, visited, 0);
         for(bool b: visited) {
             if(!b) return false;
