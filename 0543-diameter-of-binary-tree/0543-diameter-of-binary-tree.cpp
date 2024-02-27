@@ -16,7 +16,7 @@ public:
         if(root == nullptr) return 0;
         int left = calculate(root->left);
         int right = calculate(root->right);
-        int res = max(left, right) + 1;
+        
         R = max(R, left+right);
         return max(left, right) + 1;
     }
