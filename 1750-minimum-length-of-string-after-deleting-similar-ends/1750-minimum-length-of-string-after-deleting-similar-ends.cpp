@@ -14,7 +14,6 @@ public:
                 break;
             }
         }
-        //cout<<low<<" "<<high<<endl;
         return (low > high) ? 0 : high - low + 1;
     }
 };
