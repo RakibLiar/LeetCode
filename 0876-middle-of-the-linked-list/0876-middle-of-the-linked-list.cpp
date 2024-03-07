@@ -11,13 +11,13 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-        if(head == nullptr || head->next == nullptr) return head;
+        if(!head || !(head->next)) return head;
         ListNode *fast = head, *slow = head;
-        while(fast != nullptr && fast->next != nullptr) {
+        while(fast && fast->next) {
             slow = slow->next;
             fast = fast->next->next;
         }
-        //if(fast == nullptr) return slow->next;
+        
         return slow;
     }
 };
