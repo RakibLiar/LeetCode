@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxFrequencyElements(vector<int>& nums) {
-        vector<int> cnt(101, 0), freq(101, 0);
+        vector<int> cnt(101, 0);
         for(int a: nums) {
             cnt[a]++;
         }
