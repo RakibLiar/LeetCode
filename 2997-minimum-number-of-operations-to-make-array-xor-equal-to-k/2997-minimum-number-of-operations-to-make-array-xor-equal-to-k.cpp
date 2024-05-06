@@ -8,8 +8,8 @@ public:
         XOR ^= k;
         int ans = 0;
         while(XOR != 0) {
-            ans += (XOR % 2);
-            XOR /= 2;
+            ans += (XOR & 1);
+            XOR >>= 1;
         }
         return ans;
     }
