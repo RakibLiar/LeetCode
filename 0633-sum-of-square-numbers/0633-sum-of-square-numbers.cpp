@@ -1,14 +1,14 @@
 class Solution {
 public:
     bool judgeSquareSum(int c) {
-        if(c == 0) return true;
-        int a = 1;
-        while(a <= c/a) {
-            int b = c - a*a;
-            int srb = sqrt(b);
-            if(srb * srb == b) return true;
-            a++;
+        long long a=0, b=pow(c, 0.5);
+
+        while(a<=b){
+            if(a*a+b*b==(long long)c)return true;
+            else if(a*a+b*b>(long long)c)b--;
+            else a++;
         }
+        
         return false;
     }
 };
