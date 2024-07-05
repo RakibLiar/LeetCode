@@ -52,6 +52,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/RakibLiar/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Binary Search
 |  |
@@ -66,4 +67,12 @@
 |  |
 | ------- |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/RakibLiar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+## String
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/RakibLiar/LeetCode/tree/master/0005-longest-palindromic-substring) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/RakibLiar/LeetCode/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
