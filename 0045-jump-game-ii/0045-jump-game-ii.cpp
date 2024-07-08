@@ -6,8 +6,7 @@ public:
         if(dp[pos] != MX) return dp[pos];
         
         for(int i=pos+1; i <= pos + nums[pos] && i < nums.size(); i++) {
-            int res = calculateResult(nums, dp, i);
-            dp[pos] = min(dp[pos], 1 + res);
+            dp[pos] = min(dp[pos], 1 + calculateResult(nums, dp, i));
         }
         return dp[pos];
     }
