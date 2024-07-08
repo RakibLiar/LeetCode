@@ -11,11 +11,10 @@ public:
             if(nums[mid] > nums[low]) {
                 low = mid;
             } else {
-                index = mid;
                 high = mid;
             }
         }
-        return index;
+        return -1;
     }
 
     int findElement(vector<int> &nums, int low, int high, int target) {
