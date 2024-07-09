@@ -49,6 +49,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/RakibLiar/LeetCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0045-jump-game-ii](https://github.com/RakibLiar/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/RakibLiar/LeetCode/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/RakibLiar/LeetCode/tree/master/0056-merge-intervals) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/RakibLiar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## Hash Table
@@ -73,6 +74,7 @@
 |  |
 | ------- |
 | [0018-4sum](https://github.com/RakibLiar/LeetCode/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/RakibLiar/LeetCode/tree/master/0056-merge-intervals) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/RakibLiar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## Greedy
