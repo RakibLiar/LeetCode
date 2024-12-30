@@ -97,6 +97,7 @@
 | [0022-generate-parentheses](https://github.com/RakibLiar/LeetCode/tree/master/0022-generate-parentheses) |
 | [0045-jump-game-ii](https://github.com/RakibLiar/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/RakibLiar/LeetCode/tree/master/0055-jump-game) |
+| [2562-count-ways-to-build-good-strings](https://github.com/RakibLiar/LeetCode/tree/master/2562-count-ways-to-build-good-strings) |
 ## Linked List
 |  |
 | ------- |
