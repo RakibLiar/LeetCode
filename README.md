@@ -90,6 +90,7 @@
 | [0005-longest-palindromic-substring](https://github.com/RakibLiar/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/RakibLiar/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/RakibLiar/LeetCode/tree/master/0022-generate-parentheses) |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/RakibLiar/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -110,4 +111,8 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/RakibLiar/LeetCode/tree/master/0022-generate-parentheses) |
+## Prefix Sum
+|  |
+| ------- |
+| [1537-maximum-score-after-splitting-a-string](https://github.com/RakibLiar/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 <!---LeetCode Topics End-->
