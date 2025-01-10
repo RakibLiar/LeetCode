@@ -52,6 +52,7 @@
 | [0056-merge-intervals](https://github.com/RakibLiar/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/RakibLiar/LeetCode/tree/master/0057-insert-interval) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0952-word-subsets](https://github.com/RakibLiar/LeetCode/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/RakibLiar/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/RakibLiar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/RakibLiar/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -61,6 +62,7 @@
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0952-word-subsets](https://github.com/RakibLiar/LeetCode/tree/master/0952-word-subsets) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/RakibLiar/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## Two Pointers
 |  |
@@ -96,6 +98,7 @@
 | [0020-valid-parentheses](https://github.com/RakibLiar/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/RakibLiar/LeetCode/tree/master/0022-generate-parentheses) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/RakibLiar/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0952-word-subsets](https://github.com/RakibLiar/LeetCode/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/RakibLiar/LeetCode/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/RakibLiar/LeetCode/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/RakibLiar/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
