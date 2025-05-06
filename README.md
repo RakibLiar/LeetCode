@@ -57,6 +57,7 @@
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/RakibLiar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1656-count-good-triplets](https://github.com/RakibLiar/LeetCode/tree/master/1656-count-good-triplets) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/RakibLiar/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [2048-build-array-from-permutation](https://github.com/RakibLiar/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/RakibLiar/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/RakibLiar/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
 ## Hash Table
@@ -157,4 +158,8 @@
 |  |
 | ------- |
 | [1656-count-good-triplets](https://github.com/RakibLiar/LeetCode/tree/master/1656-count-good-triplets) |
+## Simulation
+|  |
+| ------- |
+| [2048-build-array-from-permutation](https://github.com/RakibLiar/LeetCode/tree/master/2048-build-array-from-permutation) |
 <!---LeetCode Topics End-->
