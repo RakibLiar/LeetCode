@@ -53,6 +53,7 @@
 | [0056-merge-intervals](https://github.com/RakibLiar/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/RakibLiar/LeetCode/tree/master/0057-insert-interval) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/RakibLiar/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0217-contains-duplicate](https://github.com/RakibLiar/LeetCode/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0952-word-subsets](https://github.com/RakibLiar/LeetCode/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/RakibLiar/LeetCode/tree/master/1524-string-matching-in-an-array) |
@@ -66,6 +67,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/RakibLiar/LeetCode/tree/master/0001-two-sum) |
+| [0217-contains-duplicate](https://github.com/RakibLiar/LeetCode/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0952-word-subsets](https://github.com/RakibLiar/LeetCode/tree/master/0952-word-subsets) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/RakibLiar/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -88,6 +90,7 @@
 | ------- |
 | [0018-4sum](https://github.com/RakibLiar/LeetCode/tree/master/0018-4sum) |
 | [0056-merge-intervals](https://github.com/RakibLiar/LeetCode/tree/master/0056-merge-intervals) |
+| [0217-contains-duplicate](https://github.com/RakibLiar/LeetCode/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/RakibLiar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 ## Greedy
