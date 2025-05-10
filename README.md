@@ -52,6 +52,7 @@
 | [0055-jump-game](https://github.com/RakibLiar/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/RakibLiar/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/RakibLiar/LeetCode/tree/master/0057-insert-interval) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/RakibLiar/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0952-word-subsets](https://github.com/RakibLiar/LeetCode/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/RakibLiar/LeetCode/tree/master/1524-string-matching-in-an-array) |
@@ -117,6 +118,7 @@
 | [0022-generate-parentheses](https://github.com/RakibLiar/LeetCode/tree/master/0022-generate-parentheses) |
 | [0045-jump-game-ii](https://github.com/RakibLiar/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/RakibLiar/LeetCode/tree/master/0055-jump-game) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/RakibLiar/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/RakibLiar/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [2562-count-ways-to-build-good-strings](https://github.com/RakibLiar/LeetCode/tree/master/2562-count-ways-to-build-good-strings) |
 ## Linked List
