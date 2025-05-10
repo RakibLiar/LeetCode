@@ -43,6 +43,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/RakibLiar/LeetCode/tree/master/0001-two-sum) |
 | [0018-4sum](https://github.com/RakibLiar/LeetCode/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/RakibLiar/LeetCode/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/RakibLiar/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
@@ -63,6 +64,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/RakibLiar/LeetCode/tree/master/0001-two-sum) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0952-word-subsets](https://github.com/RakibLiar/LeetCode/tree/master/0952-word-subsets) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/RakibLiar/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
