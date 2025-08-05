@@ -2,10 +2,10 @@ class Solution {
 public:
     int numOfUnplacedFruits(vector<int>& fruits, vector<int>& baskets) {
         int ans = fruits.size();
-        for(int i=0; i<fruits.size(); i++) {
-            for(int j=0; j<baskets.size(); j++) {
-                if(baskets[j] >= fruits[i]) {
-                    baskets[j] = 0;
+        for(int a: fruits) {
+            for(int &b: baskets) {
+                if(b >= a) {
+                    b = 0;
                     ans--;
                     break;
                 }
