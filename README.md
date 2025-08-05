@@ -70,6 +70,7 @@
 | [2292-counting-words-with-a-given-prefix](https://github.com/RakibLiar/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/RakibLiar/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
 | [2689-rearranging-fruits](https://github.com/RakibLiar/LeetCode/tree/master/2689-rearranging-fruits) |
+| [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/RakibLiar/LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [3790-fruits-into-baskets-ii](https://github.com/RakibLiar/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/RakibLiar/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 ## Hash Table
@@ -100,6 +101,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/RakibLiar/LeetCode/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/RakibLiar/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
+| [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/RakibLiar/LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [3790-fruits-into-baskets-ii](https://github.com/RakibLiar/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/RakibLiar/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 ## Sorting
@@ -112,6 +114,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/RakibLiar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2689-rearranging-fruits](https://github.com/RakibLiar/LeetCode/tree/master/2689-rearranging-fruits) |
+| [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/RakibLiar/LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/RakibLiar/LeetCode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 ## Greedy
 |  |
@@ -175,6 +178,7 @@
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/RakibLiar/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/RakibLiar/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2358-number-of-ways-to-split-array](https://github.com/RakibLiar/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
+| [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/RakibLiar/LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 ## Bit Manipulation
 |  |
 | ------- |
