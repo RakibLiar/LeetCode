@@ -71,6 +71,7 @@
 | [2358-number-of-ways-to-split-array](https://github.com/RakibLiar/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
 | [2689-rearranging-fruits](https://github.com/RakibLiar/LeetCode/tree/master/2689-rearranging-fruits) |
 | [3790-fruits-into-baskets-ii](https://github.com/RakibLiar/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/RakibLiar/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 ## Hash Table
 |  |
 | ------- |
@@ -100,6 +101,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/RakibLiar/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [3790-fruits-into-baskets-ii](https://github.com/RakibLiar/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/RakibLiar/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 ## Sorting
 |  |
 | ------- |
@@ -220,8 +222,10 @@
 |  |
 | ------- |
 | [3790-fruits-into-baskets-ii](https://github.com/RakibLiar/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/RakibLiar/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 ## Ordered Set
 |  |
 | ------- |
 | [3790-fruits-into-baskets-ii](https://github.com/RakibLiar/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
+| [3791-fruits-into-baskets-iii](https://github.com/RakibLiar/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 <!---LeetCode Topics End-->
