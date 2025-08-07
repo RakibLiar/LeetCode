@@ -1,9 +1,3 @@
-/*
-
-(1, 0), 2, 1), (3, 2)
-
-*/
-
 class Solution {
 public:
     long long calculate(vector<vector<int>> &dp, vector<vector<int>> &fruits, int x, int y, int n) {
@@ -17,7 +11,6 @@ public:
     int maxCollectedFruits(vector<vector<int>>& fruits) {
         int n = fruits.size();
         long long a = 0;
-        
         for(int i=0; i<n; i++) a += fruits[i][i];
         for (int pass = 0; pass < 2; pass++) {
             vector<vector<int>> dp(n, vector<int>(n, -1));
