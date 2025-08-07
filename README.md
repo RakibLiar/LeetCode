@@ -71,6 +71,7 @@
 | [2358-number-of-ways-to-split-array](https://github.com/RakibLiar/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
 | [2689-rearranging-fruits](https://github.com/RakibLiar/LeetCode/tree/master/2689-rearranging-fruits) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/RakibLiar/LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/RakibLiar/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3790-fruits-into-baskets-ii](https://github.com/RakibLiar/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/RakibLiar/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
 ## Hash Table
@@ -156,6 +157,7 @@
 | [0152-maximum-product-subarray](https://github.com/RakibLiar/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/RakibLiar/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [2562-count-ways-to-build-good-strings](https://github.com/RakibLiar/LeetCode/tree/master/2562-count-ways-to-build-good-strings) |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/RakibLiar/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 ## Linked List
 |  |
 | ------- |
@@ -232,4 +234,8 @@
 | ------- |
 | [3790-fruits-into-baskets-ii](https://github.com/RakibLiar/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/RakibLiar/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
+## Matrix
+|  |
+| ------- |
+| [3648-find-the-maximum-number-of-fruits-collected](https://github.com/RakibLiar/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 <!---LeetCode Topics End-->
