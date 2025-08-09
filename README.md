@@ -185,6 +185,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/RakibLiar/LeetCode/tree/master/0231-power-of-two) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/RakibLiar/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 ## String Matching
 |  |
@@ -195,6 +196,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/RakibLiar/LeetCode/tree/master/0070-climbing-stairs) |
+| [0231-power-of-two](https://github.com/RakibLiar/LeetCode/tree/master/0231-power-of-two) |
 | [0826-soup-servings](https://github.com/RakibLiar/LeetCode/tree/master/0826-soup-servings) |
 | [2032-largest-odd-number-in-string](https://github.com/RakibLiar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/RakibLiar/LeetCode/tree/master/2050-count-good-numbers) |
@@ -202,6 +204,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/RakibLiar/LeetCode/tree/master/0231-power-of-two) |
 | [2050-count-good-numbers](https://github.com/RakibLiar/LeetCode/tree/master/2050-count-good-numbers) |
 ## Enumeration
 |  |
