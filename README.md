@@ -69,6 +69,7 @@
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/RakibLiar/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/RakibLiar/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/RakibLiar/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
+| [2529-range-product-queries-of-powers](https://github.com/RakibLiar/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [2689-rearranging-fruits](https://github.com/RakibLiar/LeetCode/tree/master/2689-rearranging-fruits) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/RakibLiar/LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/RakibLiar/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
@@ -183,12 +184,14 @@
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/RakibLiar/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/RakibLiar/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2358-number-of-ways-to-split-array](https://github.com/RakibLiar/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
+| [2529-range-product-queries-of-powers](https://github.com/RakibLiar/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/RakibLiar/LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
 ## Bit Manipulation
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/RakibLiar/LeetCode/tree/master/0231-power-of-two) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/RakibLiar/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2529-range-product-queries-of-powers](https://github.com/RakibLiar/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 ## String Matching
 |  |
 | ------- |
