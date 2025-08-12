@@ -2,18 +2,17 @@ class Solution {
 public:
     int calculate(vector<vector<int>> &dp, vector<int> &v, int pos, int n) {
         if(n == 0) {
-            //cout<<pos<<" "<<n<<endl;
             return 1;
         }
-        if(pos >= v.size() || n < 0) {
-            //cout<<pos<<" "<<n<<endl;
+        if(pos >= v.size()) {
             return 0;
         }
 
         if(dp[pos][n] != -1) return dp[pos][n];
         int a = 0;
-        a += calculate(dp, v, pos+1, n-v[pos]);
-        a %= 1000000007;
+        if(n >= v[pos]) {
+            a += calculate(dp, v, pos+1, n-v[pos]);
+        }
         a += calculate(dp, v, pos+1, n);
         a %= 1000000007;
         return dp[pos][n] = a;
