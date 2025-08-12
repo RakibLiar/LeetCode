@@ -1,14 +1,10 @@
 class Solution {
 public:
     int calculate(vector<vector<int>> &dp, vector<int> &v, int pos, int n) {
-        if(n == 0) {
-            return 1;
-        }
-        if(pos >= v.size()) {
-            return 0;
-        }
-
+        if(n == 0) return 1;
+        if(pos >= v.size()) return 0;
         if(dp[pos][n] != -1) return dp[pos][n];
+        
         int a = 0;
         if(n >= v[pos]) {
             a += calculate(dp, v, pos+1, n-v[pos]);
