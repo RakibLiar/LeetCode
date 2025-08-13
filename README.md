@@ -203,6 +203,7 @@
 | ------- |
 | [0070-climbing-stairs](https://github.com/RakibLiar/LeetCode/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/RakibLiar/LeetCode/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/RakibLiar/LeetCode/tree/master/0326-power-of-three) |
 | [0826-soup-servings](https://github.com/RakibLiar/LeetCode/tree/master/0826-soup-servings) |
 | [0900-reordered-power-of-2](https://github.com/RakibLiar/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [2032-largest-odd-number-in-string](https://github.com/RakibLiar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
@@ -212,6 +213,7 @@
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/RakibLiar/LeetCode/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/RakibLiar/LeetCode/tree/master/0326-power-of-three) |
 | [2050-count-good-numbers](https://github.com/RakibLiar/LeetCode/tree/master/2050-count-good-numbers) |
 ## Enumeration
 |  |
