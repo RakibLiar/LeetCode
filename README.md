@@ -160,6 +160,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/RakibLiar/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/RakibLiar/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/RakibLiar/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
+| [0806-domino-and-tromino-tiling](https://github.com/RakibLiar/LeetCode/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/RakibLiar/LeetCode/tree/master/0826-soup-servings) |
 | [2562-count-ways-to-build-good-strings](https://github.com/RakibLiar/LeetCode/tree/master/2562-count-ways-to-build-good-strings) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/RakibLiar/LeetCode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
