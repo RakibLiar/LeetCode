@@ -125,6 +125,7 @@
 | ------- |
 | [0045-jump-game-ii](https://github.com/RakibLiar/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/RakibLiar/LeetCode/tree/master/0055-jump-game) |
+| [1448-maximum-69-number](https://github.com/RakibLiar/LeetCode/tree/master/1448-maximum-69-number) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/RakibLiar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [2032-largest-odd-number-in-string](https://github.com/RakibLiar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/RakibLiar/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -210,6 +211,7 @@
 | [0342-power-of-four](https://github.com/RakibLiar/LeetCode/tree/master/0342-power-of-four) |
 | [0826-soup-servings](https://github.com/RakibLiar/LeetCode/tree/master/0826-soup-servings) |
 | [0900-reordered-power-of-2](https://github.com/RakibLiar/LeetCode/tree/master/0900-reordered-power-of-2) |
+| [1448-maximum-69-number](https://github.com/RakibLiar/LeetCode/tree/master/1448-maximum-69-number) |
 | [2032-largest-odd-number-in-string](https://github.com/RakibLiar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/RakibLiar/LeetCode/tree/master/2050-count-good-numbers) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/RakibLiar/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
