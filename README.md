@@ -84,6 +84,7 @@
 | [0900-reordered-power-of-2](https://github.com/RakibLiar/LeetCode/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/RakibLiar/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0952-word-subsets](https://github.com/RakibLiar/LeetCode/tree/master/0952-word-subsets) |
+| [1064-smallest-integer-divisible-by-k](https://github.com/RakibLiar/LeetCode/tree/master/1064-smallest-integer-divisible-by-k) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/RakibLiar/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2689-rearranging-fruits](https://github.com/RakibLiar/LeetCode/tree/master/2689-rearranging-fruits) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/RakibLiar/LeetCode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
@@ -213,6 +214,7 @@
 | [0826-soup-servings](https://github.com/RakibLiar/LeetCode/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/RakibLiar/LeetCode/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/RakibLiar/LeetCode/tree/master/0900-reordered-power-of-2) |
+| [1064-smallest-integer-divisible-by-k](https://github.com/RakibLiar/LeetCode/tree/master/1064-smallest-integer-divisible-by-k) |
 | [1448-maximum-69-number](https://github.com/RakibLiar/LeetCode/tree/master/1448-maximum-69-number) |
 | [2032-largest-odd-number-in-string](https://github.com/RakibLiar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/RakibLiar/LeetCode/tree/master/2050-count-good-numbers) |
