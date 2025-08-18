@@ -182,6 +182,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/RakibLiar/LeetCode/tree/master/0022-generate-parentheses) |
+| [0089-gray-code](https://github.com/RakibLiar/LeetCode/tree/master/0089-gray-code) |
 | [0679-24-game](https://github.com/RakibLiar/LeetCode/tree/master/0679-24-game) |
 ## Prefix Sum
 |  |
@@ -197,6 +198,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0089-gray-code](https://github.com/RakibLiar/LeetCode/tree/master/0089-gray-code) |
 | [0231-power-of-two](https://github.com/RakibLiar/LeetCode/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/RakibLiar/LeetCode/tree/master/0342-power-of-four) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/RakibLiar/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -210,6 +212,7 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/RakibLiar/LeetCode/tree/master/0070-climbing-stairs) |
+| [0089-gray-code](https://github.com/RakibLiar/LeetCode/tree/master/0089-gray-code) |
 | [0231-power-of-two](https://github.com/RakibLiar/LeetCode/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/RakibLiar/LeetCode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/RakibLiar/LeetCode/tree/master/0342-power-of-four) |
