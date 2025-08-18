@@ -59,6 +59,7 @@
 | [0217-contains-duplicate](https://github.com/RakibLiar/LeetCode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/RakibLiar/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0679-24-game](https://github.com/RakibLiar/LeetCode/tree/master/0679-24-game) |
 | [0940-fruit-into-baskets](https://github.com/RakibLiar/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0952-word-subsets](https://github.com/RakibLiar/LeetCode/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/RakibLiar/LeetCode/tree/master/1524-string-matching-in-an-array) |
@@ -181,6 +182,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/RakibLiar/LeetCode/tree/master/0022-generate-parentheses) |
+| [0679-24-game](https://github.com/RakibLiar/LeetCode/tree/master/0679-24-game) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -211,6 +213,7 @@
 | [0231-power-of-two](https://github.com/RakibLiar/LeetCode/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/RakibLiar/LeetCode/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/RakibLiar/LeetCode/tree/master/0342-power-of-four) |
+| [0679-24-game](https://github.com/RakibLiar/LeetCode/tree/master/0679-24-game) |
 | [0826-soup-servings](https://github.com/RakibLiar/LeetCode/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/RakibLiar/LeetCode/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/RakibLiar/LeetCode/tree/master/0900-reordered-power-of-2) |
