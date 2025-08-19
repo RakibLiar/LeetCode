@@ -4,12 +4,9 @@ public:
         long long res = 0, cnt = 0;
         for(int a: nums) {
             if(a == 0) cnt++;
-            else {
-                res += ((cnt * (cnt+1))/2);
-                cnt = 0;
-            }
+            else cnt = 0;
+            res += cnt;
         }
-        res += ((cnt * (cnt+1))/2);
         return res;
     }
 };
