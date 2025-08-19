@@ -70,6 +70,7 @@
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/RakibLiar/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/RakibLiar/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/RakibLiar/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/RakibLiar/LeetCode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2529-range-product-queries-of-powers](https://github.com/RakibLiar/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [2689-rearranging-fruits](https://github.com/RakibLiar/LeetCode/tree/master/2689-rearranging-fruits) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/RakibLiar/LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
@@ -224,6 +225,7 @@
 | [1448-maximum-69-number](https://github.com/RakibLiar/LeetCode/tree/master/1448-maximum-69-number) |
 | [2032-largest-odd-number-in-string](https://github.com/RakibLiar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2050-count-good-numbers](https://github.com/RakibLiar/LeetCode/tree/master/2050-count-good-numbers) |
+| [2432-number-of-zero-filled-subarrays](https://github.com/RakibLiar/LeetCode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/RakibLiar/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Recursion
 |  |
