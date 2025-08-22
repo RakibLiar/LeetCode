@@ -74,6 +74,7 @@
 | [2529-range-product-queries-of-powers](https://github.com/RakibLiar/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [2689-rearranging-fruits](https://github.com/RakibLiar/LeetCode/tree/master/2689-rearranging-fruits) |
 | [2718-minimum-operations-to-make-all-array-elements-equal](https://github.com/RakibLiar/LeetCode/tree/master/2718-minimum-operations-to-make-all-array-elements-equal) |
+| [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/RakibLiar/LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/RakibLiar/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3790-fruits-into-baskets-ii](https://github.com/RakibLiar/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/RakibLiar/LeetCode/tree/master/3791-fruits-into-baskets-iii) |
@@ -273,6 +274,7 @@
 ## Matrix
 |  |
 | ------- |
+| [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/RakibLiar/LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/RakibLiar/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 ## Probability and Statistics
 |  |
