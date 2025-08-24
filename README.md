@@ -63,6 +63,7 @@
 | [0940-fruit-into-baskets](https://github.com/RakibLiar/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0952-word-subsets](https://github.com/RakibLiar/LeetCode/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/RakibLiar/LeetCode/tree/master/1524-string-matching-in-an-array) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/RakibLiar/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/RakibLiar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1656-count-good-triplets](https://github.com/RakibLiar/LeetCode/tree/master/1656-count-good-triplets) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/RakibLiar/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -169,6 +170,7 @@
 | [0806-domino-and-tromino-tiling](https://github.com/RakibLiar/LeetCode/tree/master/0806-domino-and-tromino-tiling) |
 | [0826-soup-servings](https://github.com/RakibLiar/LeetCode/tree/master/0826-soup-servings) |
 | [0867-new-21-game](https://github.com/RakibLiar/LeetCode/tree/master/0867-new-21-game) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/RakibLiar/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2562-count-ways-to-build-good-strings](https://github.com/RakibLiar/LeetCode/tree/master/2562-count-ways-to-build-good-strings) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/RakibLiar/LeetCode/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/RakibLiar/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
@@ -262,6 +264,7 @@
 | ------- |
 | [0867-new-21-game](https://github.com/RakibLiar/LeetCode/tree/master/0867-new-21-game) |
 | [0940-fruit-into-baskets](https://github.com/RakibLiar/LeetCode/tree/master/0940-fruit-into-baskets) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/RakibLiar/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/RakibLiar/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 ## Segment Tree
 |  |
