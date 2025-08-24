@@ -6,8 +6,7 @@ public:
             if(nums[i] == 0) zero++;
 
             while(zero > 1) {
-                if(nums[start++] == 0)
-                    zero--;
+                if(nums[start++] == 0) zero--;
             }
 
             res = max(res, i - start);
