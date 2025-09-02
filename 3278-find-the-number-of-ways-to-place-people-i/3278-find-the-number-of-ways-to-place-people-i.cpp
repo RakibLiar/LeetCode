@@ -17,12 +17,8 @@ public:
 
         for(int i=0; i<points.size(); i++) {
             for(int j=i+1; j<points.size(); j++) {
-                if(isLowerRight(points[i], points[j])) {
+                if(points[i][1] >= points[j][1]) {
                     int k;
-                    if(j == i+1) {
-                        cnt++;
-                        continue;
-                    }
                     for(k=i+1; k<j; k++) {
                         if(isInside(points[i], points[j], points[k])) {
                             break;
