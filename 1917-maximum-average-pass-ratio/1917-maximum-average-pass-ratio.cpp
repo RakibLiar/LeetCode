@@ -19,7 +19,7 @@ public:
         }
         
         double sum = 0;
-        for (auto& c : classes) {
+        for (auto c : classes) {
             sum += (double)c[0] / c[1];
         }
         
