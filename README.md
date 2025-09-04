@@ -70,6 +70,7 @@
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/RakibLiar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1656-count-good-triplets](https://github.com/RakibLiar/LeetCode/tree/master/1656-count-good-triplets) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/RakibLiar/LeetCode/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1917-maximum-average-pass-ratio](https://github.com/RakibLiar/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [2048-build-array-from-permutation](https://github.com/RakibLiar/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/RakibLiar/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/RakibLiar/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -145,6 +146,7 @@
 | [0055-jump-game](https://github.com/RakibLiar/LeetCode/tree/master/0055-jump-game) |
 | [1448-maximum-69-number](https://github.com/RakibLiar/LeetCode/tree/master/1448-maximum-69-number) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/RakibLiar/LeetCode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
+| [1917-maximum-average-pass-ratio](https://github.com/RakibLiar/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 | [2032-largest-odd-number-in-string](https://github.com/RakibLiar/LeetCode/tree/master/2032-largest-odd-number-in-string) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/RakibLiar/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2689-rearranging-fruits](https://github.com/RakibLiar/LeetCode/tree/master/2689-rearranging-fruits) |
@@ -319,4 +321,8 @@
 | ------- |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/RakibLiar/LeetCode/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/RakibLiar/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1917-maximum-average-pass-ratio](https://github.com/RakibLiar/LeetCode/tree/master/1917-maximum-average-pass-ratio) |
 <!---LeetCode Topics End-->
