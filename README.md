@@ -84,6 +84,7 @@
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/RakibLiar/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/RakibLiar/LeetCode/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/RakibLiar/LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/RakibLiar/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/RakibLiar/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/RakibLiar/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/RakibLiar/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
@@ -105,6 +106,7 @@
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/RakibLiar/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2689-rearranging-fruits](https://github.com/RakibLiar/LeetCode/tree/master/2689-rearranging-fruits) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/RakibLiar/LeetCode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/RakibLiar/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/RakibLiar/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Two Pointers
 |  |
@@ -195,6 +197,7 @@
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/RakibLiar/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/RakibLiar/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Stack
 |  |
 | ------- |
