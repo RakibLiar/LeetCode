@@ -75,6 +75,7 @@
 | [2048-build-array-from-permutation](https://github.com/RakibLiar/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/RakibLiar/LeetCode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/RakibLiar/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/RakibLiar/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2358-number-of-ways-to-split-array](https://github.com/RakibLiar/LeetCode/tree/master/2358-number-of-ways-to-split-array) |
 | [2432-number-of-zero-filled-subarrays](https://github.com/RakibLiar/LeetCode/tree/master/2432-number-of-zero-filled-subarrays) |
 | [2529-range-product-queries-of-powers](https://github.com/RakibLiar/LeetCode/tree/master/2529-range-product-queries-of-powers) |
@@ -280,6 +281,7 @@
 | ------- |
 | [0498-diagonal-traverse](https://github.com/RakibLiar/LeetCode/tree/master/0498-diagonal-traverse) |
 | [2048-build-array-from-permutation](https://github.com/RakibLiar/LeetCode/tree/master/2048-build-array-from-permutation) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/RakibLiar/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3790-fruits-into-baskets-ii](https://github.com/RakibLiar/LeetCode/tree/master/3790-fruits-into-baskets-ii) |
 ## Memoization
 |  |
@@ -315,6 +317,7 @@
 | [0036-valid-sudoku](https://github.com/RakibLiar/LeetCode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/RakibLiar/LeetCode/tree/master/0037-sudoku-solver) |
 | [0498-diagonal-traverse](https://github.com/RakibLiar/LeetCode/tree/master/0498-diagonal-traverse) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/RakibLiar/LeetCode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/RakibLiar/LeetCode/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/RakibLiar/LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/RakibLiar/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
