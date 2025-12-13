@@ -87,6 +87,7 @@
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/RakibLiar/LeetCode/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/RakibLiar/LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/RakibLiar/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3606-coupon-code-validator](https://github.com/RakibLiar/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/RakibLiar/LeetCode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/RakibLiar/LeetCode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/RakibLiar/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
@@ -109,6 +110,7 @@
 | [2689-rearranging-fruits](https://github.com/RakibLiar/LeetCode/tree/master/2689-rearranging-fruits) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/RakibLiar/LeetCode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/RakibLiar/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3606-coupon-code-validator](https://github.com/RakibLiar/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/RakibLiar/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Two Pointers
 |  |
@@ -144,6 +146,7 @@
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/RakibLiar/LeetCode/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/RakibLiar/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/RakibLiar/LeetCode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3606-coupon-code-validator](https://github.com/RakibLiar/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3748-sort-matrix-by-diagonals](https://github.com/RakibLiar/LeetCode/tree/master/3748-sort-matrix-by-diagonals) |
 ## Greedy
 |  |
@@ -176,6 +179,7 @@
 | [2292-counting-words-with-a-given-prefix](https://github.com/RakibLiar/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/RakibLiar/LeetCode/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [3360-minimum-deletions-to-make-string-k-special](https://github.com/RakibLiar/LeetCode/tree/master/3360-minimum-deletions-to-make-string-k-special) |
+| [3606-coupon-code-validator](https://github.com/RakibLiar/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3754-maximum-manhattan-distance-after-k-changes](https://github.com/RakibLiar/LeetCode/tree/master/3754-maximum-manhattan-distance-after-k-changes) |
 ## Dynamic Programming
 |  |
