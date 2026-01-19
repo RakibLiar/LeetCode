@@ -10,16 +10,28 @@ public:
             }
         }
 
-        int mx = min(row, col);
-        while(mx > 0) {
-            for(int i=0; i+mx<=row; i++) {
-                for(int j=0; j+mx<=col; j++) {
-                    int sum = cumsum[i+mx][j+mx] - cumsum[i][j+mx] - cumsum[i+mx][j] + cumsum[i][j];
-                    if(sum <= threshold) return mx;
+        int mx = min(row, col), ans = 0;
+        int low = 0, high = mx;
+        while(low <= high) {
+            int mid = (low + high) / 2;
+            bool ok = false;
+            for(int i=0; i+mid<=row; i++) {
+                for(int j=0; j+mid<=col; j++) {
+                    int sum = cumsum[i+mid][j+mid] - cumsum[i][j+mid] - cumsum[i+mid][j] + cumsum[i][j];
+                    if(sum <= threshold) {
+                        ok = true;
+                        break;
+                    }
                 }
+                if(ok) break;
             }
-            mx--;
+            if(ok) {
+                ans = mid;
+                low = mid+1;
+            } else {
+                high = mid-1;
+            }
         }
-        return 0;
+        return ans;
     }
 };
