@@ -10,8 +10,8 @@ public:
             }
         }
 
-        int mx = min(row, col), ans = 0;
-        int low = 0, high = mx;
+        int high = min(row, col), ans = 0, low = 0;
+        
         while(low <= high) {
             int mid = (low + high) / 2;
             bool ok = false;
