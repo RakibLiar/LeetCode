@@ -87,6 +87,7 @@
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/RakibLiar/LeetCode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/RakibLiar/LeetCode/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/RakibLiar/LeetCode/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
+| [3314-construct-the-minimum-bitwise-array-i](https://github.com/RakibLiar/LeetCode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/RakibLiar/LeetCode/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/RakibLiar/LeetCode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/RakibLiar/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -244,6 +245,7 @@
 | [0342-power-of-four](https://github.com/RakibLiar/LeetCode/tree/master/0342-power-of-four) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/RakibLiar/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2529-range-product-queries-of-powers](https://github.com/RakibLiar/LeetCode/tree/master/2529-range-product-queries-of-powers) |
+| [3314-construct-the-minimum-bitwise-array-i](https://github.com/RakibLiar/LeetCode/tree/master/3314-construct-the-minimum-bitwise-array-i) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/RakibLiar/LeetCode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 ## String Matching
 |  |
