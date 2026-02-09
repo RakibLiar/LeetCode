@@ -196,6 +196,7 @@
 | [0070-climbing-stairs](https://github.com/RakibLiar/LeetCode/tree/master/0070-climbing-stairs) |
 | [0118-pascals-triangle](https://github.com/RakibLiar/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/RakibLiar/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/RakibLiar/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/RakibLiar/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/RakibLiar/LeetCode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0806-domino-and-tromino-tiling](https://github.com/RakibLiar/LeetCode/tree/master/0806-domino-and-tromino-tiling) |
@@ -361,12 +362,15 @@
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/RakibLiar/LeetCode/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/RakibLiar/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/RakibLiar/LeetCode/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/RakibLiar/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 ## Binary Tree
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/RakibLiar/LeetCode/tree/master/0110-balanced-binary-tree) |
+| [0124-binary-tree-maximum-path-sum](https://github.com/RakibLiar/LeetCode/tree/master/0124-binary-tree-maximum-path-sum) |
 <!---LeetCode Topics End-->
