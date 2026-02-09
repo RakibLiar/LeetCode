@@ -18,19 +18,20 @@ public:
         q.push(root);
         while(!q.empty()) {
             int sz = q.size();
-            res.push_back(vector<int>());
-            int index = res.size() - 1;
+            vector<int> v;
             for(int i=0; i<sz; i++) {
                 TreeNode *t = q.front();
                 q.pop();
                 if(t != nullptr) {
-                    res[index].push_back(t->val);
-                    q.push(t->left);
-                    q.push(t->right);
+                    v.push_back(t->val);
+                    if(t->left)
+                        q.push(t->left);
+                    if(t->right)
+                        q.push(t->right);
                 }
             }
+            res.push_back(v);
         }
-        res.pop_back();
         return res;
     }
 };
