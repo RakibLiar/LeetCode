@@ -1,15 +1,12 @@
 class LRUCache {
 public:
-    class Node {
-        public:
-            int key, val;
-            Node *next, *prev;
-            Node(int k, int v) {
-                this->key = k;
-                this->val = v;
-                this->next = nullptr;
-                this->prev = nullptr;
-            }
+    struct Node {
+        int key, val;
+        Node *next, *prev;
+        Node(int k, int v) {
+            this->key = k;
+            this->val = v;
+        }
     };
 
     Node *head = new Node(-1, -1);
