@@ -3,10 +3,7 @@ public:
     struct Node {
         int key, val;
         Node *next, *prev;
-        Node(int k, int v) {
-            this->key = k;
-            this->val = v;
-        }
+        Node(int k, int v): key(k), val(v), next(nullptr), prev(nullptr) { }
     };
 
     Node *head = new Node(-1, -1);
