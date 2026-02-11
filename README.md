@@ -104,6 +104,7 @@
 | [0001-two-sum](https://github.com/RakibLiar/LeetCode/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/RakibLiar/LeetCode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/RakibLiar/LeetCode/tree/master/0037-sudoku-solver) |
+| [0146-lru-cache](https://github.com/RakibLiar/LeetCode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/RakibLiar/LeetCode/tree/master/0217-contains-duplicate) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/RakibLiar/LeetCode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0900-reordered-power-of-2](https://github.com/RakibLiar/LeetCode/tree/master/0900-reordered-power-of-2) |
@@ -212,6 +213,7 @@
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/RakibLiar/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0146-lru-cache](https://github.com/RakibLiar/LeetCode/tree/master/0146-lru-cache) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/RakibLiar/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Stack
 |  |
@@ -386,4 +388,12 @@
 |  |
 | ------- |
 | [0102-binary-tree-level-order-traversal](https://github.com/RakibLiar/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/RakibLiar/LeetCode/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/RakibLiar/LeetCode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
